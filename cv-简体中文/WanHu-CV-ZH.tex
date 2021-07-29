@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 最后更新:2014年10月11日
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+% moderncv version 1.5.1 (29 Apr 2013)
+
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[noindent]{ctex} %中文支持
+\setCJKmainfont{SimSun}
+
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[top=1cm,bottom=1cm,left=2cm,right=2cm]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+\name{纪}{儒}
+% All information in this block is optional, comment out any lines you don't need
+
+\address{北京邮电大学}{闵行区, 上海市 201100}
+\phone[mobile]{(+86)18515561026}
+\email{rubujubi@gmail.com}
+\homepage{kindhearted57.github.io}
+%\social[twitter]{username}
+%\social[github]{kindhearted57}
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{photo} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%   POSITION APPLIED（CAREER OBJECTIVE）
+%----------------------------------------------------------------------------------------
+%\section{求职意向}
+%%\subsection{求职意向}
+%\cventry{期望月薪：  面议}{应聘职位：初级硬件工程师}{}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{教育背景}
+
+\cventry{2017.8-2021.6}{网络空间安全}{北京邮电大学}{本科}{GPA:3.66/4}{}{\textit{}  % Arguments not required can be left empty
+北京市优秀毕业生
+
+%----------------------------------------------------------------------------------------
+%   WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{语言水平}
+CET-6 666分
+
+IELTS 7分
+
+GRE 321 Verbal 151  Quantitative 170 Analytical Writing 4
+
+\section{发表论文}
+%------------------------------------------------
+\subsection{DEPOSafe: Demystifying the Fake Deposit Vulnerability in Ethereum Smart Contracts\href{https://arxiv.org/pdf/2006.06419.pdf}{[pdf]} }
+
+Ru Ji, Ningyu He, Lei Wu, Haoyu Wang, Guangdong Bai and Yao Guo
+
+The 24th International Conference on Engineering of Complex Computer Systems (ICECCS), 2020.
+
+假充值漏洞是区块链生态系统中交易所和代币之间最有代表性的攻击之一，我们率先详细分析了假充值漏洞，总结了基本的模式，并且提出了一个自动化的工具DEPOSafe。它能够检测并验证ERC-20标准下智能合约的假充值漏洞。我们的研究证明了假充值漏洞的严重性和防范假充值漏洞的必要性。
+
+\setlength{\itemindent}{2em}
+%   \item 设计测试方法、搭建测试平台，编写自动化脚本，完成FFmpeg/X264 编码速度测试
+
+}
+\subsection{Characterizing Cryptocurrency Exchange Scams\href{https://arxiv.org/pdf/2003.07314.pdf}{[pdf]}}
+
+Pengcheng Xia, Haoyu Wang, Bowen Zhang, Ru Ji, Bingyu Gao, Lei Wu, Xiapu Luo and Guoai Xu
+
+Computers \& Security, 2020.
+
+加密货币交易所吸引了攻击者的大量关注，目前出现了许多针对加密货币交易所的欺诈攻击。在这篇文章中，我们率先识别并且分类了加密货币交易所的欺诈，我们识别了欺诈的域名和虚假app并且研究了他们之间的关系。
+
+\section{项目经历}
+\subsection{竞赛}
+
+\cventry{2019.9---2019.11}{全国密码技术大赛参赛作品（3人队 ~ 担任队长）}{基于变色龙哈希函数的区块链账本压缩算法设计}{国家级}{}{
+随着区块链账本的体积不断增大，区块链账本中存储了大量不值得浪费存储空间的垃圾信息，我们设计了一种算法用来压缩区块链，通过变色龙哈希函数来删除区块或者交易。
+\begin{itemize}
+\setlength{\itemindent}{2em}
+\item 负责最终展示阶段的代码编写
+\item 负责部分报告文档的编写
+%\item 论文《面向多核处理器系统的Cache 感知调度算法》发表在中文核心期刊《小型微型计算机系统》
+\end{itemize}
+}
+%------------------------------------------------
+%------------------------------------------------
+\subsection{科研}
+\cventry{毕业设计}{}{The Design and Implementation of a Tool for Detecting Scam Blockchain Addresses}{}{}{
+现如今存在多种基于比特币的欺诈：恶意软件，勒索邮件等等，在本文中，我们首先收集并标记了一个欺诈地址数据集。然后首先对数据集的一 些基础特征进行分析，之后在进行分类的过程中，先使用一些传统的机器学习算法进行分类，然后分成监督和半监督两种方式使用 GCN 图神经网络以及 GAT 图注意网络对数据进行分类。最后对不同的分类方法以及不同的数据集上的结果进行对比分析。
+}
+
+\subsection{课程设计}
+\cventry{2019.7}{5人队}{安全实时通信系统}{}{}{
+P2P架构与C/S架构混合使用，系统支持在线和离线传输消息、文件。
+\begin{itemize}
+	\setlength{\itemindent}{2em}
+	\item 负责系统中加密部分代码的设计与编写
+	\item 负责部分界面的设计
+	\item 负责部分P2P的设计
+\end{itemize}
+}
+\cventry{2019.9}{4人队}{安全在线网盘}{}{}{
+	基于C/S架构，SSL进行安全传输，AES进行文件加密，给每个用户提供个人独立存储空间，用户可以进行文件管理。
+	\begin{itemize}
+		\setlength{\itemindent}{2em}
+		\item 负责系统中加密部分代码的设计与编写
+		\item 负责部分界面的设计
+	\end{itemize}
+}
+
+\cventry{2020.6}{5人队}{漏洞攻击检测实验}{}{}{
+	在目标机中部署了4个CVE漏洞，通过两层跳板机对漏洞进行攻击，并且通过主机检测和网络流量检测工具对攻击进行检测。
+	\begin{itemize}
+		\setlength{\itemindent}{2em}
+		\item 负责防御系统的搭建
+		\item 负责部分漏洞系统的部署
+	\end{itemize}
+}
+
+
+%------------------------------------------------
+%%------------------------------------------------
+%\subsection{首都师范大学学位论文\LaTeX 模板开发}
+%\cventry{2013}{项目负责人}{首都师范大学学位论文（本科生、硕博）\LaTeX 模板}{开源项目}{}{
+%\begin{itemize}
+%   \item 开发和维护首都师范大学本科生，硕士生、博士生学位论文\LaTeX 模板
+%\end{itemize}
+%}
+
+%----------------------------------------------------------------------------------------
+%   AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{荣誉奖励}
+\cvitem{2018.5}{全国大学生英语竞赛 ~ 国家一等奖}
+\cvitem{2018.6}{外研社杯全国大学生英语阅读竞赛 ~ 二等奖}
+\cvitem{2018/2019}{校级二等奖学金}
+\cvitem{2018/2019}{校级优秀学生干部}
+\cvitem{2019.5}{第三届“外教社杯”全国大学生能源电力人文学术英语论坛 ~ 一等奖}
+\cvitem{2019.8}{全国大学生数学建模竞赛 ~ 北京市二等奖}
+\cvitem{2019.11}{全国密码技术竞赛 ~ 一等奖}
+\cvitem{2021.7}{北京市优秀毕业生}
+\section{学生工作}
+\cvitem{2018.6-2019.6}{学校跆拳道社社长}
+\cvitem{2017.9--}{网络空间安全学院 ~ 大班班长}
+\cvitem{2018.9-2019.6}{网络空间安全学院学生会 ~ 技术部副部长}
+\end{document}
